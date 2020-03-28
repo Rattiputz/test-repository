@@ -1,0 +1,332 @@
+<?xml version="1.0" ?>
+<robot name="industrial">
+<link name="base_link">
+  <inertial>
+    <origin rpy="0 0 0" xyz="0.2548338399011842 0.039363954343754844 0.31001749808238654"/>
+    <mass value="45.31428377967853"/>
+    <inertia ixx="0.286619" ixy="-0.000299" ixz="-0.006278" iyy="0.523195" iyz="0.000324" izz="0.286478"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <geometry>
+      <mesh filename="package://fusion2urdf/industrial/bin_stl/base_link_m-binary.stl"/>
+    </geometry>
+    <material name="silver">
+      <color rgba="1 0 0 1"/>
+    </material>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <geometry>
+      <mesh filename="package://fusion2urdf/industrial/bin_stl/base_link_m-binary.stl"/>
+    </geometry>
+  </collision>
+</link>
+<link name="JAW_1_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="-0.05924661932331013 0.08495449970422879 0.003876432288686338"/>
+    <mass value="18.758780946630694"/>
+    <inertia ixx="0.097637" ixy="0.074393" ixz="0.004819" iyy="0.132376" iyz="-0.004334" izz="0.194071"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="-0.253392 -0.084654 -0.311443"/>
+    <geometry>
+      <mesh filename="package://fusion2urdf/industrial/bin_stl/JAW_1_1_m-binary.stl"/>
+    </geometry>
+    <material name="silver">
+      <color rgba="1 0 0 1"/>
+    </material>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="-0.253392 -0.084654 -0.311443"/>
+    <geometry>
+      <mesh filename="package://fusion2urdf/industrial/bin_stl/JAW_1_1_m-binary.stl"/>
+    </geometry>
+  </collision>
+</link>
+<link name="JAW_2_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="0.10451597593488317 0.0926934587697287 -0.015603834274600659"/>
+    <mass value="6.328442247675211"/>
+    <inertia ixx="0.065903" ixy="-0.06454" ixz="-0.000489" iyy="0.071298" iyz="-0.000178" izz="0.135195"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="-0.103425 -0.244808 -0.291223"/>
+    <geometry>
+      <mesh filename="package://fusion2urdf/industrial/bin_stl/JAW_2_1_m-binary.stl"/>
+    </geometry>
+    <material name="silver">
+      <color rgba="1 0 0 1"/>
+    </material>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="-0.103425 -0.244808 -0.291223"/>
+    <geometry>
+      <mesh filename="package://fusion2urdf/industrial/bin_stl/JAW_2_1_m-binary.stl"/>
+    </geometry>
+  </collision>
+</link>
+<link name="JAW_3_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="-0.04842956677440935 0.0339771945754212 0.046283489142288026"/>
+    <mass value="11.40386436403121"/>
+    <inertia ixx="0.015199" ixy="-0.002718" ixz="0.000845" iyy="0.064243" iyz="-0.000888" izz="0.067337"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="-0.353593 -0.489585 -0.291634"/>
+    <geometry>
+      <mesh filename="package://fusion2urdf/industrial/bin_stl/JAW_3_1_m-binary.stl"/>
+    </geometry>
+    <material name="silver">
+      <color rgba="1 0 0 1"/>
+    </material>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="-0.353593 -0.489585 -0.291634"/>
+    <geometry>
+      <mesh filename="package://fusion2urdf/industrial/bin_stl/JAW_3_1_m-binary.stl"/>
+    </geometry>
+  </collision>
+</link>
+<link name="JAW_4_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="-0.06679268105117524 -0.007650782836484127 0.0003458632493384406"/>
+    <mass value="3.736976429844003"/>
+    <inertia ixx="0.003209" ixy="-0.000719" ixz="-5e-06" iyy="0.009402" iyz="4e-06" izz="0.008957"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="-0.103992 -0.506311 -0.339224"/>
+    <geometry>
+      <mesh filename="package://fusion2urdf/industrial/bin_stl/JAW_4_1_m-binary.stl"/>
+    </geometry>
+    <material name="silver">
+      <color rgba="1 0 0 1"/>
+    </material>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="-0.103992 -0.506311 -0.339224"/>
+    <geometry>
+      <mesh filename="package://fusion2urdf/industrial/bin_stl/JAW_4_1_m-binary.stl"/>
+    </geometry>
+  </collision>
+</link>
+<link name="JAW_5_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="-0.049700553139761676 -0.031801725366641886 0.011526286038185563"/>
+    <mass value="2.6723759798307576"/>
+    <inertia ixx="0.002209" ixy="-0.000372" ixz="1.7e-05" iyy="0.002555" iyz="1.1e-05" izz="0.002819"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="0.010253 -0.493343 -0.326537"/>
+    <geometry>
+      <mesh filename="package://fusion2urdf/industrial/bin_stl/JAW_5_1_m-binary.stl"/>
+    </geometry>
+    <material name="silver">
+      <color rgba="1 0 0 1"/>
+    </material>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="0.010253 -0.493343 -0.326537"/>
+    <geometry>
+      <mesh filename="package://fusion2urdf/industrial/bin_stl/JAW_5_1_m-binary.stl"/>
+    </geometry>
+  </collision>
+</link>
+<link name="JAW_6_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="-0.013775380389767819 -0.008785724302981801 -8.748866270125166e-05"/>
+    <mass value="0.600174321482272"/>
+    <inertia ixx="0.000303" ixy="2e-05" ixz="-1.2e-05" iyy="0.000284" iyz="2e-05" izz="0.000281"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="0.089511 -0.442687 -0.338032"/>
+    <geometry>
+      <mesh filename="package://fusion2urdf/industrial/bin_stl/JAW_6_1_m-binary.stl"/>
+    </geometry>
+    <material name="silver">
+      <color rgba="1 0 0 1"/>
+    </material>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="0.089511 -0.442687 -0.338032"/>
+    <geometry>
+      <mesh filename="package://fusion2urdf/industrial/bin_stl/JAW_6_1_m-binary.stl"/>
+    </geometry>
+  </collision>
+</link>
+<link name="JAW_7__2__1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="-0.03852995296871463 -0.027898058341137955 -0.010161505028423945"/>
+    <mass value="0.2441632396754522"/>
+    <inertia ixx="7.9e-05" ixy="-9.1e-05" ixz="-1e-06" iyy="0.000161" iyz="3e-06" izz="0.000221"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="0.103562 -0.403223 -0.370795"/>
+    <geometry>
+      <mesh filename="package://fusion2urdf/industrial/bin_stl/JAW_7__2__1_m-binary.stl"/>
+    </geometry>
+    <material name="silver">
+      <color rgba="1 0 0 1"/>
+    </material>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="0.103562 -0.403223 -0.370795"/>
+    <geometry>
+      <mesh filename="package://fusion2urdf/industrial/bin_stl/JAW_7__2__1_m-binary.stl"/>
+    </geometry>
+  </collision>
+</link>
+<link name="JAW_7_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="-0.02553781863191204 -0.04089139374660061 0.004945214888827543"/>
+    <mass value="0.24576959229480003"/>
+    <inertia ixx="0.00013" ixy="-9.7e-05" ixz="2.4e-05" iyy="0.000118" iyz="3e-05" izz="0.000215"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="0.137153 -0.456407 -0.318789"/>
+    <geometry>
+      <mesh filename="package://fusion2urdf/industrial/bin_stl/JAW_7_1_m-binary.stl"/>
+    </geometry>
+    <material name="silver">
+      <color rgba="1 0 0 1"/>
+    </material>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="0.137153 -0.456407 -0.318789"/>
+    <geometry>
+      <mesh filename="package://fusion2urdf/industrial/bin_stl/JAW_7_1_m-binary.stl"/>
+    </geometry>
+  </collision>
+</link>
+<joint name="Umdrehung1" type="continuous">
+  <origin rpy="0 0 0" xyz="0.253392 0.084654 0.311443"/>
+  <parent link="base_link"/>
+  <child link="JAW_1_1"/>
+  <axis xyz="0.0 0.01 -0.0"/>
+</joint>
+<transmission name="Umdrehung1_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="Umdrehung1">
+    <hardwareInterface>PositionJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="Umdrehung1_actr">
+    <hardwareInterface>PositionJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+<joint name="Umdrehung2" type="continuous">
+  <origin rpy="0 0 0" xyz="-0.149967 0.160154 -0.02022"/>
+  <parent link="JAW_1_1"/>
+  <child link="JAW_2_1"/>
+  <axis xyz="1.6e-05 0.0 -0.01"/>
+</joint>
+<transmission name="Umdrehung2_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="Umdrehung2">
+    <hardwareInterface>PositionJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="Umdrehung2_actr">
+    <hardwareInterface>PositionJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+<joint name="Umdrehung3" type="continuous">
+  <origin rpy="0 0 0" xyz="0.250168 0.244777 0.000411"/>
+  <parent link="JAW_2_1"/>
+  <child link="JAW_3_1"/>
+  <axis xyz="-1.6e-05 -0.0 0.01"/>
+</joint>
+<transmission name="Umdrehung3_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="Umdrehung3">
+    <hardwareInterface>PositionJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="Umdrehung3_actr">
+    <hardwareInterface>PositionJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+<joint name="Umdrehung4" type="continuous">
+  <origin rpy="0 0 0" xyz="-0.249601 0.016726 0.04759"/>
+  <parent link="JAW_3_1"/>
+  <child link="JAW_4_1"/>
+  <axis xyz="-0.009935 -0.001137 -1.6e-05"/>
+</joint>
+<transmission name="Umdrehung4_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="Umdrehung4">
+    <hardwareInterface>PositionJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="Umdrehung4_actr">
+    <hardwareInterface>PositionJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+<joint name="Umdrehung5" type="continuous">
+  <origin rpy="0 0 0" xyz="-0.114245 -0.012968 -0.012687"/>
+  <parent link="JAW_4_1"/>
+  <child link="JAW_5_1"/>
+  <axis xyz="-6e-06 -9e-05 0.01"/>
+</joint>
+<transmission name="Umdrehung5_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="Umdrehung5">
+    <hardwareInterface>PositionJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="Umdrehung5_actr">
+    <hardwareInterface>PositionJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+<joint name="Umdrehung6" type="continuous">
+  <origin rpy="0 0 0" xyz="-0.079258 -0.050656 0.011495"/>
+  <parent link="JAW_5_1"/>
+  <child link="JAW_6_1"/>
+  <axis xyz="-0.008431 -0.005377 -5.4e-05"/>
+</joint>
+<transmission name="Umdrehung6_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="Umdrehung6">
+    <hardwareInterface>PositionJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="Umdrehung6_actr">
+    <hardwareInterface>PositionJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+<joint name="Umdrehung7" type="continuous">
+  <origin rpy="0 0 0" xyz="-0.014051 -0.039464 0.032763"/>
+  <parent link="JAW_6_1"/>
+  <child link="JAW_7__2__1"/>
+  <axis xyz="0.003461 -0.00535 -0.007707"/>
+</joint>
+<transmission name="Umdrehung7_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="Umdrehung7">
+    <hardwareInterface>PositionJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="Umdrehung7_actr">
+    <hardwareInterface>PositionJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+<joint name="Umdrehung8" type="continuous">
+  <origin rpy="0 0 0" xyz="-0.047642 0.01372 -0.019243"/>
+  <parent link="JAW_6_1"/>
+  <child link="JAW_7_1"/>
+  <axis xyz="0.003461 -0.00535 -0.007707"/>
+</joint>
+<transmission name="Umdrehung8_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="Umdrehung8">
+    <hardwareInterface>PositionJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="Umdrehung8_actr">
+    <hardwareInterface>PositionJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+<gazebo>
+  <plugin filename="libgazebo_ros_control.so" name="control"/>
+</gazebo>
+</robot>

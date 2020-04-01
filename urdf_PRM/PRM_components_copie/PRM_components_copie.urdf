@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<robot name="PRM_components_copie">
+<link name="base_link">
+  <inertial>
+    <origin rpy="0 0 0" xyz="-0.08394887597572259 0.050628409814922025 0.0320121184699526"/>
+    <mass value="0.3058063059122466"/>
+    <inertia ixx="0.00132" ixy="-1e-06" ixz="-0.0" iyy="0.000415" iyz="2.5e-05" izz="0.001609"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <geometry>
+      <mesh filename="package://fusion2urdf/PRM_components_copie/bin_stl/base_link_m-binary.stl"/>
+    </geometry>
+    <material name="silver">
+      <color rgba="1 0 0 1"/>
+    </material>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <geometry>
+      <mesh filename="package://fusion2urdf/PRM_components_copie/bin_stl/base_link_m-binary.stl"/>
+    </geometry>
+  </collision>
+</link>
+<gazebo>
+  <plugin filename="libgazebo_ros_control.so" name="control"/>
+</gazebo>
+</robot>
